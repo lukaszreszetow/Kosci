@@ -1,5 +1,5 @@
 fun main() {
-    val myPlayer = MyPlayer()
-    val game = Game(listOf(myPlayer))
+    val player = MockJavaPlayer()
+    val game = Game(listOf(player))
     game.start()
 }
